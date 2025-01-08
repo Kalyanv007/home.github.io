@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>form elements</h1>
+    <form>
+        <fieldset>
+            <legend><b>example for text</b></legend>
+            <label for="name">name:</label>
+            <input type="text" name="name" id="name">
+            <input type="submit">
+        </fieldset>
+    </form>
+    <br>
+    <p>choose your favorite car company</p>
+    <form>
+        <input type="radio" name="car" id="mercedes" value="mercedes">
+        <label for="mercedes">mercedes</label>
+        <input type="radio" name="car" id="bmw" value="bmw">
+        <label for="bmw">bmw</label>
+        <input type="radio" name="car" id="audi" value="audi">
+        <label for="audi">audi</label><br>
+        <input type="submit">
+    </form>
+    <br>
+    <form>
+        <input type="checkbox" name="car" id="mercedes" value="mercedes">
+        <label for="mercedes">mercedes</label>
+        <input type="checkbox" name="car" id="bmw" value="bmw">
+        <label for="bmw">bmw</label>
+        <input type="checkbox" name="car" id="audi" value="audi">
+        <label for="audi">audi</label><br>
+        <input type="submit">
+    </form>
+    <br>
+    <form>
+        <label for="cars">Choose your favorite car:</label>
+        <select id="cars" name="cars">
+          <option value="mercedes">mercedes</option>
+          <option value="bmw">bmw</option>
+          <option value="audi">audi</option>
+        </select>
+        <br>
+        <input type="submit">
+      </form>
+      <br>
+      <form>
+        <input list="cars" id="cars" name="car">
+        <datalist id="cars">
+            <option value="mercedes"></option>
+            <option value="bmw"></option>
+            <option value="audi"></option>
+        </datalist>
+        <input type="submit">
+      </form>
+      <br>
+      <form>
+        <textarea name="example" id="example" rows="10" cols="10">this is an example. you can even edit and put your content in this textbox</textarea>
+        <br>
+        <input type="submit">
+      </form>
+</body>
+</html>
